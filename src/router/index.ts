@@ -26,6 +26,16 @@ const routes: Array<RouteRecordRaw> = [
     name: "ComputedAndWatch",
     component: () => import("../views/ComputedAndWatch.vue"),
   },
+  {
+    path: "/ProvideAndInject",
+    name: "ProvideAndInject",
+    component: () => import("../views/ProvideAndInject.vue"),
+  },
+  {
+    path: "/PromiseDemo",
+    name: "PromiseDemo",
+    component: () => import("../views/PromiseDemo.vue"),
+  },
 ];
 
 const router = createRouter({

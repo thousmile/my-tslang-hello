@@ -5,6 +5,8 @@
     <router-link to="/ReactiveView">响应式</router-link> |
     <router-link to="/SetupProps">SetupProps</router-link> |
     <router-link to="/ComputedAndWatch">ComputedAndWatch</router-link> |
+    <router-link to="/ProvideAndInject">ProvideAndInject</router-link> |
+    <router-link to="/PromiseDemo">PromiseDemo</router-link> |
   </nav>
   <router-view />
 </template>
